@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-hm",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/base.js",
+    "./frontend": "./src/frontend.js",
+    "./react-native": "./src/react-native.js",
+    "./react": "./src/react.js"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@react-native/eslint-config": "^0.74.84",
+    "@types/eslint__js": "^8.42.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-babel-module": "^5.3.2",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-json": "^4.0.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-tailwindcss": "^3.17.3",
+    "globals": "^15.4.0",
+    "typescript-eslint": "^7.13.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.54.0"
+  },
+  "optionalDependencies": {
+    "prettier": "^3.3.2"
+  }
+}
