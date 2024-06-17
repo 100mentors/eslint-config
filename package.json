@@ -14,7 +14,9 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
+  "dependencies": {
+  },
+  "peerDependencies": {
     "@eslint/js": "^9.4.0",
     "@react-native/eslint-config": "^0.74.84",
     "@types/eslint__js": "^8.42.3",
@@ -28,9 +30,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-tailwindcss": "^3.17.3",
     "globals": "^15.4.0",
-    "typescript-eslint": "^7.13.0"
-  },
-  "peerDependencies": {
+    "typescript-eslint": "^7.13.0",
     "eslint": ">=8.54.0"
   },
   "optionalDependencies": {
