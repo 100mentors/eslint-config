@@ -78,9 +78,15 @@ export default tseslint.config(
           format: null,
         },
       ],
+    },
+  },
+  {
+    name: 'Typescript ESlint rules (ignore .d.ts)',
+    ignores: ['**/*.d.ts'],
+    rules: {
       /* Restrict declaring types only as types (interfaces error) */
       '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
-    },
+    }
   },
   {
     name: 'Import',
