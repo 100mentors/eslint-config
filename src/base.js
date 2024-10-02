@@ -25,7 +25,7 @@ export default tseslint.config(
       },
     },
   },
-  { ignores: ['dist/**/*', 'package.json', 'package-lock.json', 'src/generated/**/*.{js,jsx,ts,tsx}'] },
+  { ignores: ['dist/**/*', 'package.json', 'package-lock.json', 'tsconfig.json', 'src/generated/**/*.{js,jsx,ts,tsx}'] },
   { name: 'ESlint recommended rules', ...eslint.configs.recommended },
   {
     name: 'ESlint rules',
